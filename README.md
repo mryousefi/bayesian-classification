@@ -6,7 +6,7 @@ The optimal Bayesian classification paradigm addresses sample discrimination pro
 
 This toolbox implements tools for several Gaussian models with known, independent scaled identity, independent arbitrary, homoscedastic scaled identity, and homoscedastic arbitrary covariances.  All models also assume unknown means and use conjugate priors. This toolbox includes implementations of the following for these models:
 
-1. **Optimal Bayesian risk classifiers (OBRC)**, which reduce to the optimal Bayesian classifier (OBC) under binary classification with zero-one risk functions,
+1. **Optimal Bayesian risk classifiers (OBRC)**, which reduce to optimal Bayesian classifiers (OBCs) under binary classification with zero-one risk functions,
 
 2. **Optimal Bayesian risk estimators (BRE)** under the OBRC and several other (linear and non-linear) classifiers, which reduce to optimal Bayesian error estimators under binary classification with zero-one risk functions, 
 
@@ -39,7 +39,7 @@ You can find the LIBSVM library [here](https://www.csie.ntu.edu.tw/~cjlin/libsvm
 
 ## How to start
 You can start by playing with the example files, and then run them in Matlab:
-- [main_arbit_homo_multi.m](https://github.com/mryousefi/bayesian-classificationb/blob/master/main_arbit_homo_multi.m)
+- [main_arbit_homo_multi.m](https://github.com/mryousefi/bayesian-classification/blob/master/main_arbit_homo_multi.m)
 - [main_arbit_homo_risk.m](https://github.com/mryousefi/bayesian-classification/blob/master/main_arbit_homo_risk.m)
 - [main_arbit_indep_multi.m](https://github.com/mryousefi/bayesian-classification/blob/master/main_arbit_indep_multi.m)
 - [main_arbit_indep_risk.m](https://github.com/mryousefi/bayesian-classification/blob/master/main_arbit_indep_risk.m)
